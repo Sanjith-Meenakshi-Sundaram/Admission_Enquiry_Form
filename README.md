@@ -43,44 +43,44 @@ No CSS or JavaScript is to be included. Focus on structure and accessibility.
   <title>Saveetha Engineering College - Admission Enquiry</title>
 </head>
 <body>
-
   <h1>Admission Enquiry Form</h1>
-
   <form>
     <label for="fullname">Full Name:</label><br>
-    <input type="text" id="fullname" name="fullname" required><br><br>
+    <input type="text" id="fullname" required><br><br>
     <label for="email">Email Address:</label><br>
-    <input type="email" id="email" name="email" required><br><br>
+    <input type="email" id="email" required><br><br>
     <label for="mobile">Mobile Number:</label><br>
-    <input type="tel" id="mobile" name="mobile" required><br><br>
+    <input type="tel" id="mobile" required><br><br>
     <label>Gender:</label><br>
-    <input type="radio" id="male" name="gender" value="Male">
+    <input type="radio" id="male">
     <label for="male">Male</label><br>
-    <input type="radio" id="female" name="gender" value="Female">
+    <input type="radio" id="female">
     <label for="female">Female</label><br><br>
     <label for="dob">Date of Birth:</label><br>
-    <input type="date" id="dob" name="dob"><br><br>
+    <input type="date" id="dob"><br><br>
     <label for="department">Department Interested:</label><br>
-    <select id="department" name="department">
-      <option value="CSE">CSE</option>
-      <option value="ECE">ECE</option>
-      <option value="MECH">MECH</option>
-      <option value="CIVIL">CIVIL</option>
-      <option value="EEE">EEE</option>
+    <select id="department">
+      <option >CSE</option>
+      <option>ECE</option>
+      <option>MECH</option>
+      <option>CIVIL</option>
+      <option>EEE</option>
     </select><br><br>
     <label for="qualification">Academic Qualification:</label><br>
-    <textarea id="qualification" name="qualification" rows="3" cols="30"></textarea><br><br>
+    <textarea id="qualification" rows="3" cols="30"></textarea><br><br>
     <label for="address">Address:</label><br>
-    <textarea id="address" name="address" rows="3" cols="30"></textarea><br><br>
+    <textarea id="address" rows="3" cols="30"></textarea><br><br>
     <label>Preferred Mode of Contact:</label><br>
-    <input type="checkbox" id="contactEmail" name="contact" value="Email">
+    <input type="checkbox" id="contactEmail">
     <label for="contactEmail">Email</label><br>
-    <input type="checkbox" id="contactPhone" name="contact" value="Phone">
+    <input type="checkbox" id="contactPhone">
     <label for="contactPhone">Phone</label><br><br>
-    <input type="submit" value="Submit">
+    <input type="submit">
   </form>
+
 </body>
 </html>
+
 ```
 
 ## Output:
