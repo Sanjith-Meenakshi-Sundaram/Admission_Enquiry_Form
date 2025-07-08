@@ -35,6 +35,8 @@ Use submit and reset at the bottom of the form.
 No CSS or JavaScript is to be included. Focus on structure and accessibility.
 
 ## HTML Code:
+
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -79,7 +81,7 @@ No CSS or JavaScript is to be included. Focus on structure and accessibility.
   </form>
 </body>
 </html>
-
+```
 
 ## Output:
 ![image](https://github.com/user-attachments/assets/d6c07913-fb37-4a72-a769-8182abe85a85)
